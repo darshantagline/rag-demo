@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample HTML Document</title>
+</head>
+<body>
+    <h1>Retrieval-Augmented Generation (RAG)</h1>
+    <p>Retrieval-Augmented Generation (RAG) is a cutting-edge approach in AI that enhances the capabilities of large language models by integrating external knowledge sources. RAG systems retrieve relevant documents from a database and use generative models to answer questions with context and citations.</p>
+    <h2>How RAG Works</h2>
+    <ol>
+        <li><strong>Document Retrieval:</strong> The system searches a knowledge base for documents related to the user's query.</li>
+        <li><strong>Chunking & Metadata:</strong> Retrieved documents are split into chunks and tagged with metadata for efficient search.</li>
+        <li><strong>Embedding Generation:</strong> Each chunk is converted into a vector using an embedding model (e.g., OpenAI).</li>
+        <li><strong>Vector Database Ingestion:</strong> Chunks and embeddings are stored in a vector database like Qdrant.</li>
+        <li><strong>Answer Generation:</strong> The generative model uses both the query and retrieved chunks to produce a grounded answer.</li>
+    </ol>
+    <h2>Applications</h2>
+    <ul>
+        <li>Enterprise search</li>
+        <li>Legal and medical assistants</li>
+        <li>Customer support bots</li>
+        <li>Research tools</li>
+    </ul>
+</body>
+</html>
